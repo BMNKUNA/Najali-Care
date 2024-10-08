@@ -20,6 +20,10 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
+
+     <!--logo Icon-->
+     <link rel="icon" type="image/x-icon" href="images/logo.jpg" />
+
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -50,16 +54,16 @@
      <!-- MENU -->
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
-
-                    <!-- LOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>Najali Care</a>
-               </div>
+              <div class="navbar-header">
+                  <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon icon-bar"></span>
+                      <span class="icon icon-bar"></span>
+                      <span class="icon icon-bar"></span>
+                  </button>
+      
+                  <!-- LOGO IMAGE HERE -->
+                  <h4>Najali Care</h4>
+              </div>
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
@@ -67,8 +71,8 @@
                          <li><a href="#top" class="smoothScroll">Home</a></li>
                          <li><a href="#about" class="smoothScroll">About Us</a></li>
                          <li><a href="#team" class="smoothScroll">Our Specialists</a></li>
-                         <li><a href="#news" class="smoothScroll">Latest News</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                         <li><a href="#patientJourney" class="smoothScroll">Patient Journey</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact us</a></li>
                          <li class="appointment-btn"><a href="#appointment">Make an Appointment</a></li>
                     </ul>
                </div>
@@ -122,8 +126,13 @@
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <p>Najali Care is dedicated to offering comprehensive medical tourism services that combine advanced medical treatments with personalized care. We connect patients with top specialists and healthcare professionals for a seamless healthcare experience.</p>
                               </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="images/logob.jpg" class="img-responsive" alt="">
+                              </div>
                          </div>
-                    </div>
+                   </div>
                </div>
           </div>
      </section>
@@ -163,7 +172,7 @@
           <div class="container">
                <div class="row">
                     <div class="col-md-6 col-sm-6">
-                         <img src="images/appointment-image.jpg" class="img-responsive" alt="">
+                         <img src="images/booking.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="col-md-6 col-sm-6">
                          <!-- CONTACT FORM HERE -->
@@ -185,11 +194,12 @@
                                         <input type="date" name="date" value="" class="form-control">
                                    </div>
                                    <div class="col-md-6 col-sm-6">
-                                        <label for="select">Select Department</label>
+                                        <label for="select">Select Service</label>
                                         <select class="form-control">
-                                             <option>General Surgery</option>
-                                             <option>Endocrinology</option>
-                                             <option>Mental Health</option>
+                                             <option>Oncology</option>
+                                             <option>Reproductive Health</option>
+                                             <option>Geriatric Medicine</option>
+                                             <option>Neurology</option>
                                         </select>
                                    </div>
                                    <div class="col-md-12 col-sm-12">
@@ -227,7 +237,7 @@
                          <div class="footer-thumb"> 
                               <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
                               <p>Feel free to reach out to Najali Care for any queries or assistance with our medical tourism services.</p>
-
+               <section id="contact">
                               <div class="contact-info">
                                    <p><i class="fa fa-phone"></i> 010-070-0170</p>
                                    <p><i class="fa fa-envelope-o"></i> <a href="#">info@najalicare.com</a></p>
@@ -236,15 +246,18 @@
                     </div>
                     <div class="col-md-4 col-sm-4"> 
                          <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
+                              <section id="patientJourney">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Patient Journey</h4>
                               <div class="latest-stories">
                                    <div class="stories-info">
-                                        <a href="#"><h5>Advanced Surgical Techniques</h5></a>
-                                        <span>March 08, 2024</span>
+                                        <a href="#"><h5>Onboarding</h5></a>
+                                        <a href="#"><h5>Pre Treatment: Diagnosis</h5></a>
+                                        <span></span>
                                    </div>
                                    <div class="stories-info">
-                                        <a href="#"><h5>Holistic Wellness for Chronic Diseases</h5></a>
-                                        <span>February 20, 2024</span>
+                                        <a href="#"><h5>Post Treatment: Patient Support</h5></a>
+                                        <span></span>
+                              </section>
                                    </div>
                               </div>
                          </div>

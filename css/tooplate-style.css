@@ -1,15 +1,11 @@
 /*
 
-Template 2098 Health
-
-http://www.tooplate.com/view/2098-health
-
 */
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background: #ffffff;
+    background: #fffffff4;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -469,7 +465,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
+    background: url('../images/logob.jpg') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
