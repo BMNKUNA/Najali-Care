@@ -254,30 +254,16 @@ footer ul.social-icon li a:hover {
 }
 /* Custom Styles for Appointment Button */
 .appointment-btn a {
-  background-color: #0056b3; /* Change to your desired color */
-  color: white; /* Text color */
-  padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Add some rounding to the corners */
-  transition: background-color 0.3s ease; /* Transition for smooth hover effect */
+    background-color: #0056b3; /* Change to your desired color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add some rounding to the corners */
+    transition: background-color 0.3s ease; /* Transition for smooth hover effect */
 }
 
 .appointment-btn a:hover {
-  background-color: #003d7a; /* Darker shade for hover effect */
-  color: white; /* Keep text color white on hover */
-}
-
-/* Custom Styles for Appointment Button */
-.appointment-btn a {
-  background-color: #007A33; /* Change this to dark green */
-  color: white; /* Text color */
-  padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-.appointment-btn a:hover {
-  background-color: #005A25; /* Darker shade for hover effect */
-  color: white; /* Keep text color white on hover */
+    background-color: #003d7a; /* Darker shade for hover effect */
+    color: white; /* Keep text color white on hover */
 }
 
 
