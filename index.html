@@ -1,280 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Najali Care and Wellness</title>
 
-     <title>Najali Care and Wellness</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Najali Care and Wellness offers personalized medical tourism services, integrating advanced medical care and wellness.">
+    <meta name="keywords" content="Najali Care, Medical Tourism, Wellness, Healthcare, Surgery, Chronic Disease Management">
+    <meta name="author" content="Najali Care">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="Najali Care and Wellness offers personalized medical tourism services, integrating advanced medical care and wellness.">
-     <meta name="keywords" content="Najali Care, Medical Tourism, Wellness, Healthcare, Surgery, Chronic Disease Management">
-     <meta name="author" content="Najali Care">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="icon" type="image/x-icon" href="images/about.png" />
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Custom Styles -->
+    <style>
+        /* Enhanced Navbar Styling */
+        .navbar {
+            background: #0056b3;
+            border-bottom: 3px solid #00b3b3;
+            transition: all 0.3s ease;
+        }
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-style.css">
+        .navbar .navbar-nav li a {
+            color: #fff !important;
+            padding: 15px 20px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
 
+        .navbar .navbar-nav li a:hover {
+            background: #00b3b3;
+            color: #fff;
+        }
 
-     <!--logo Icon-->
-     <link rel="icon" type="image/x-icon" href="images/logo.jpg" />
+        /* Full-screen Hero Section */
+        #hero-section {
+            height: 100vh;
+            background: url('images/hero-bg.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        #hero-section h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        #hero-section p {
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+
+        .section-btn {
+            background-color: #00b3b3;
+            border: none;
+            padding: 10px 30px;
+            font-size: 18px;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .section-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #333;
+            color: white;
+            padding: 40px 0;
+        }
+
+        footer a {
+            color: #00b3b3;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #0056b3;
+        }
+
+        footer .social-icons a {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+    </style>
 
 </head>
+
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
-               <span class="spinner-rotate"></span>
-          </div>
-     </section>
+    <!-- NAVBAR -->
+    <section class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">
+                    <img src="images/about.png" alt="Najali Care Logo" class="img-responsive" style="height: 50px;">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#top" class="smoothScroll">Home</a></li>
+                    <li><a href="about.html" class="smoothScroll">About Us</a></li>
+                    <li><a href="specialists.html" class="smoothScroll">Our Specialists</a></li>
+                    <li><a href="contact.html" class="smoothScroll">Contact</a></li>
+                    <li class="appointment-btn"><a href="appointment.html">Make an Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-     <!-- HEADER -->
-     <header>
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4 col-sm-5">
-                         <p>Welcome to Najali Care and Wellness</p>
+    <!-- HERO SECTION -->
+    <section id="hero-section">
+        <div class="container text-center">
+            <h1>Welcome to Najali Care and Wellness</h1>
+            <p>Providing Advanced Medical Solutions for Your Health</p>
+            <a href="about.html" class="section-btn">Learn More About Us</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h4>Contact Info</h4>
+                    <p>Feel free to reach out to Najali Care for any queries or assistance.</p>
+                    <p><i class="fa fa-phone"></i> 010-070-0170</p>
+                    <p><i class="fa fa-envelope"></i> <a href="mailto:info@najalicare.com">info@najalicare.com</a></p>
+                </div>
+                <!-- Social Links -->
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="fa fa-facebook-square"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
                     </div>
-
-                    <div class="col-md-8 col-sm-7 text-align-right">
-                         <span class="phone-icon"><i class="fa fa-phone"></i> 010-060-0160</span>
-                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 8:00 AM - 8:00 PM (Mon-Sat)</span>
-                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">info@najalicare.com</a></span>
-                    </div>
-               </div>
-          </div>
-     </header>
-
-     <!-- MENU -->
-     <section class="navbar navbar-default navbar-static-top" role="navigation">
-          <div class="container">
-              <div class="navbar-header">
-                  <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="icon icon-bar"></span>
-                      <span class="icon icon-bar"></span>
-                      <span class="icon icon-bar"></span>
-                  </button>
-      
-                  <!-- LOGO IMAGE HERE -->
-                  <h4>Najali Care</h4>
-              </div>
-
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#top" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About Us</a></li>
-                         <li><a href="#team" class="smoothScroll">Our Specialists</a></li>
-                         <li><a href="#patientJourney" class="smoothScroll">Patient Journey</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact us</a></li>
-                         <li class="appointment-btn"><a href="#appointment">Make an Appointment</a></li>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="specialists.html">Our Specialists</a></li>
+                        <li><a href="appointment.html">Make an Appointment</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
-               </div>
-          </div>
-     </section>
-
-     <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-                    <div class="owl-carousel owl-theme">
-                         <div class="item item-first">
-                              <div class="caption">
-                                   <div class="col-md-offset-1 col-md-10">
-                                        <h3>Personalized Care for Your Health</h3>
-                                        <h1>Advanced Medical Solutions</h1>
-                                        <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Specialists</a>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="item item-second">
-                              <div class="caption">
-                                   <div class="col-md-offset-1 col-md-10">
-                                        <h3>Comprehensive Wellness Support</h3>
-                                        <h1>Your Journey to Recovery</h1>
-                                        <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">Learn More About Us</a>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="item item-third">
-                              <div class="caption">
-                                   <div class="col-md-offset-1 col-md-10">
-                                        <h3>Expert Healthcare Services</h3>
-                                        <h1>Holistic Medical Tourism</h1>
-                                        <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Latest News</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <!-- ABOUT -->
-     <section id="about">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Najali Care and Wellness</h2>
-                              <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Najali Care is dedicated to offering comprehensive medical tourism services that combine advanced medical treatments with personalized care. We connect patients with top specialists and healthcare professionals for a seamless healthcare experience.</p>
-                              </div>
-                    
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-                              <img src="images/logob.jpg" class="img-responsive" alt="">
-                              </div>
-                         </div>
-                   </div>
-               </div>
-          </div>
-     </section>
-
-     <!-- TEAM -->
-     <section id="team" data-stellar-background-ratio="1">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Specialists</h2>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
-                              <div class="team-info">
-                                   <h3>Dr. Nandi Ndhlovu</h3>
-                                   <p>Dermatologist</p>
-                                   <div class="team-contact-info">
-                                        <p><i class="fa fa-phone"></i> 010-020-0120</p>
-                                        <p><i class="fa fa-envelope-o"></i> <a href="#">drnandi@najalicare.com</a></p>
-                                   </div>
-                                   <ul class="social-icon">
-                                        <li><a href="https://www.linkedin.com/in/dr-nandipha-thandi-ndhlovu-79120510/" class="fa fa-linkedin-square"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <!-- MAKE AN APPOINTMENT -->
-     <section id="appointment" data-stellar-background-ratio="3">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                         <img src="images/booking.jpg" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                         <!-- CONTACT FORM HERE -->
-                         <form id="appointment-form" role="form" method="post" action="#">
-                              <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                                   <h2>Make an Appointment</h2>
-                              </div>
-                              <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
-                                   </div>
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
-                                   </div>
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="date">Select Date</label>
-                                        <input type="date" name="date" value="" class="form-control">
-                                   </div>
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="select">Select Service</label>
-                                        <select class="form-control">
-                                             <option>Oncology</option>
-                                             <option>Reproductive Health</option>
-                                             <option>Geriatric Medicine</option>
-                                             <option>Neurology</option>
-                                        </select>
-                                   </div>
-                                   <div class="col-md-12 col-sm-12">
-                                        <label for="phone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
-                                        <label for="message">Additional Message</label>
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit</button>
-                                   </div>
-                              </div>
-                        </form>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-<!-- GOOGLE MAP -->
-<section id="google-map">
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241920.55349431467!2d28.047804110326116!3d-26.11819744910448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d37c859ec1f%3A0x6e8103bc49790f9c!2s41%202nd%20Rd%2C%20Hyde%20Park%2C%20Sandton%2C%202196!5e0!3m2!1sen!2sza!4v1696810875675!5m2!1sen!2sza" 
-        width="100%" 
-        height="350" 
-        frameborder="0" 
-        style="border:0" 
-        allowfullscreen>
-    </iframe>
-</section>
-
-
-     <!-- FOOTER -->
-     <footer data-stellar-background-ratio="5">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Feel free to reach out to Najali Care for any queries or assistance with our medical tourism services.</p>
-               <section id="contact">
-                              <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@najalicare.com</a></p>
-                              </div>
-                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <section id="patientJourney">
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Patient Journey</h4>
-                              <div class="latest-stories">
-                                   <div class="stories-info">
-                                        <a href="#"><h5>Onboarding</h5></a>
-                                        <a href="#"><h5>Pre Treatment: Diagnosis</h5></a>
-                                        <span></span>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#"><h5>Post Treatment: Patient Support</h5></a>
-                                        <span></span>
-                              </section>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </footer>
-
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.sticky.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
-
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

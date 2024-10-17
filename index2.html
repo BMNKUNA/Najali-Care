@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dynamic Page</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+  
+  <!-- Polyfill for older browsers -->
+  <script nomodule src="https://polyfill.io/v3/polyfill.min.js?features=fetch"></script>
+  <script nomodule src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"></script>
+
+  <!-- Performance Optimization Script -->
+  <script>
+    (function () {
+      var noop = function noop() {};
+      if (!("performance" in window)) {
+        window.performance = {};
+      }
+      window.performance.mark = performance.mark || noop;
+      window.performance.measure = performance.measure || noop;
+      if (!("now" in window.performance)) {
+        var nowOffset = Date.now();
+        if (performance.timing && performance.timing.navigationStart) {
+          nowOffset = performance.timing.navigationStart;
+        }
+        window.performance.now = function now() {
+          return Date.now() - nowOffset;
+        };
+      }
+    })();
+  </script>
+
+  <!-- Custom Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      margin: 15px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .mobile-nav {
+      display: none;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    /* Mobile Styles */
+    @media only screen and (max-width: 768px) {
+      nav {
+        display: none;
+      }
+
+      .mobile-nav {
+        display: block;
+        text-align: center;
+      }
+
+      .mobile-nav button {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Dynamic Page</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="mobile-nav">
+    <button onclick="toggleNav()">Menu</button>
+    <div id="mobile-menu" style="display:none;">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <section id="home">
+    <h2>Welcome to Our Website</h2>
+    <p>This is a dynamically optimized page with mobile responsive navigation.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p>Details about our services.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Information about our company.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us.</p>
+  </section>
+
+  <!-- Script for mobile menu -->
+  <script>
+    function toggleNav() {
+      var mobileMenu = document.getElementById("mobile-menu");
+      if (mobileMenu.style.display === "none") {
+        mobileMenu.style.display = "block";
+      } else {
+        mobileMenu.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
